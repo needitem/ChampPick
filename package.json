@@ -1,0 +1,14 @@
+{
+  "name": "champpick",
+  "version": "1.0.0",
+  "description": "LoL ARAM/Brawl champ select overlay - shows bench champions and swaps on click via the local LCU API",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . ChampPick --platform=win32 --arch=x64 --out=dist --overwrite --prune=true"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "@electron/packager": "^18.3.6"
+  }
+}
